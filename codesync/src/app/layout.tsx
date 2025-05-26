@@ -46,8 +46,6 @@ export default function RootLayout({
 
             </div>
           </ThemeProvider>
-
-
         </body>
       </html>
     </ConvexClerkProvider>
