@@ -1,7 +1,12 @@
-import Image from "next/image";
+import HeroSection from "@/components/hero"
 
 export default function Home() {
-  return <>
-  <h1>AI Interview</h1>
-  </>
+  return
+  
+    <div>
+      <div> AI Interview </div>
+      <HeroSection/>
+    </div>
+  
 }
+
