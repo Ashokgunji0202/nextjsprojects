@@ -68,6 +68,7 @@ export function UserDataEditor({ user: initialUser, onUpdateUser }: UserDataEdit
       ...prevUser,
       skills: prevUser.skills.filter((skill) => skill !== skillToDelete),
     }))
+    toast.success("Skill deleted successfully!");
   }
 
   const handleAddSkill = () => {
@@ -168,7 +169,7 @@ export function UserDataEditor({ user: initialUser, onUpdateUser }: UserDataEdit
             )}
           </div>
 
-          {/* Username Field */}
+         
           <div>
             <Label htmlFor={`username-${user.id}`} className="font-medium">
               Username:
@@ -187,7 +188,7 @@ export function UserDataEditor({ user: initialUser, onUpdateUser }: UserDataEdit
             )}
           </div>
 
-          {/* Branch Field */}
+          
           <div>
             <Label htmlFor={`branch-${user.id}`} className="font-medium">
               Branch:
@@ -206,7 +207,7 @@ export function UserDataEditor({ user: initialUser, onUpdateUser }: UserDataEdit
             )}
           </div>
 
-          {/* Skills Section */}
+          
           <div>
             <Label className="font-medium">Skills:</Label>
             <div className="flex flex-wrap gap-2 mt-2 mb-3">
