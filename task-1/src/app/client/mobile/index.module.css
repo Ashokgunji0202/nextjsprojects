@@ -1,0 +1,10 @@
+
+.wrapper{
+    background-color: #0f0f0f;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}

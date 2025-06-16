@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Ashok Kumar",
+    "email": "ashok@gmail.com",
+    "username": "ashok_dev",
+    "branch": "EEE",
+    "skills": [
+      "css",
+      "js",
+      "react",
+      "nodejs",
+      "pthon",
+      "c"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Basha",
+    "email": "Basha@example.com",
+    "username": "Basha_design",
+    "branch": "CSE",
+    "skills": [
+      "figma",
+      "photoshop",
+      "ui-ux",
+      "html",
+      "css"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Yash Patel",
+    "email": "raj@example.com",
+    "branch": "IT",
+    "skills": [
+      "python",
+      "django",
+      "postgresql",
+      "docker"
+    ],
+    "username": "developer"
+  }
+]
